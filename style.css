@@ -54,10 +54,7 @@ body{
 
 
 #bottom-left-section{
-    /* float: left; */
-    display: inline-block;
-    /* <div></div> <div></div>  ese #bottom-left-section or #bottom-right-section hone chiye tbi display: inline-block chalega*/
-    /* when we use display inline-block then we have to use vertical-align because one div goes top and other goes to middle  */
+    float: left;
     vertical-align: top;
     width: 50%;
     height: 100%;
@@ -106,8 +103,7 @@ button:hover{
 
 
 #bottom-right-section{
-    /* float: left; */
-    display: inline-block;
+    float: left;
     width: 50%;
     height: 100%;
     background-color: #2EBFBD;
